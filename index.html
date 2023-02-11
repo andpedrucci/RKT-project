@@ -59,16 +59,17 @@
         <h1>RKT</h1>
         <button onclick="document.getElementById('login-modal').style.display='block'">Login</button>
     </div>
-    </div>
     <div id="login-modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="document.getElementById('login-modal').style.display='none'">&times;</span>
-            <form>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Senha" required>
-                <input type="submit" value="Entrar">
-                <input type="submit" value="Cadastrar">
-            </form>
+            <div class="container">
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
         </div>
     </div>
     <script>
